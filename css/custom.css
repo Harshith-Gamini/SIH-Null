@@ -1,76 +1,77 @@
 body {
   margin: 0;
   padding: 0;
-  background: #17153a;
+  background: #010101;
 }
 
-#particles-js { 
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    z-index: -10;
-    top: 0;
-    left: 0;
-	background-color: #17153a; 
-	background-image: url(""); 
-	background-repeat: no-repeat; 
-	background-size: cover; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
+#particles-js {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -10;
+  top: 0;
+  left: 0;
+  background-color: #17153a;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 .sub-heading-title {
-	padding: 6em 0 2em 0;
+  padding: 6em 0 2em 0;
 }
 
 .vertical-padding {
-	padding: 6em 0 6em 0;
+  padding: 6em 0 6em 0;
 }
 
 .diagonal-section {
-	z-index: 30; 
-	position: relative;
-	opacity: 0.9;
-	transform: skewY(-2deg); 
-	-ms-transform: skewY(-2deg); 
-	-webkit-transform: skewY(-2deg);
+  z-index: 30;
+  position: relative;
+  opacity: 0.9;
+  transform: skewY(-2deg);
+  -ms-transform: skewY(-2deg);
+  -webkit-transform: skewY(-2deg);
 }
 
 .footer-section {
-	margin-top: -2em;
-	padding: 2em 0 2em 0;
-	opacity: 1;
+  margin-top: -2em;
+  padding: 2em 0 2em 0;
+  opacity: 1;
 }
 
 .foreground {
-	z-index: 3;
-	position: relative;
+  z-index: 3;
+  position: relative;
 }
 
 .white-bg {
-	background: white; 
+  background: rgb(51, 255, 0);
 }
 
 .transparent-bg {
-	background: transparent; 
+  background: transparent;
 }
 
 .black-bg {
-	background: black;
+  background: black;
 }
 
 .diagonal-section-content {
-	padding: 5em 0 5em 0; 
-	transform: skewY(2deg); 
-	-ms-transform: skewY(2deg); 
-	-webkit-transform: skewY(2deg);
+  padding: 5em 0 5em 0;
+  transform: skewY(2deg);
+  -ms-transform: skewY(2deg);
+  -webkit-transform: skewY(2deg);
 }
 
-header, section {
-	z-index: 3;
-	position: relative;
-	overflow: hidden;	
+header,
+section {
+  z-index: 3;
+  position: relative;
+  overflow: hidden;
 }
 
 .dark-blue-bg {
@@ -139,22 +140,22 @@ header, section {
 }
 
 .image-showcase {
-	z-index: 3;
-	position: relative;
+  z-index: 3;
+  position: relative;
 }
 
 @media (min-width: 991.98px) {
-	#team {
-		margin-right: 7em;
-	}
+  #team {
+    margin-right: 7em;
+  }
 }
 @media (max-width: 1200px) {
-	.front-image-box {
-		margin-bottom: 7em;
-	}
-	.first-image {
-		margin-bottom: 8em;
-	}
+  .front-image-box {
+    margin-bottom: 7em;
+  }
+  .first-image {
+    margin-bottom: 8em;
+  }
 }
 
 .card {
@@ -253,22 +254,22 @@ header, section {
 }
 
 #mlh-trust-badge {
-	display:block;
-	max-width:120px!important;
-	min-width:50px!important;
-	position:fixed;
-	/* ---- This number is very important so menu doesn't overlap ---- */
-	right:10px!important;
-	top:0;
-	width:10%;
-	z-index:10000
+  display: block;
+  max-width: 120px !important;
+  min-width: 50px !important;
+  position: fixed;
+  /* ---- This number is very important so menu doesn't overlap ---- */
+  right: 10px !important;
+  top: 0;
+  width: 10%;
+  z-index: 10000;
 }
 
 /* ---- Mobile only styling ---- */
 @media (max-width: 991.98px) {
-	.navbar-toggler {
-		margin-right: 4em!important;
-	}
+  .navbar-toggler {
+    margin-right: 4em !important;
+  }
   nav {
     width: 100%;
   }
@@ -309,25 +310,26 @@ header, section {
   .projects-section .project-text {
     padding: 3% !important;
   }
-  
+
   .project-text {
     padding: 3% !important;
   }
 
   #mainNav .navbar-toggler {
-    color: #F0B036;
+    color: #f0b036;
     border: 2px solid #ccc;
     border-radius: 30px;
   }
-  
-  #mainNav .navbar-toggler:hover, #mainNav .navbar-toggler:focus {
-    color: #F0B036;
-    border-color: #F0B036;
+
+  #mainNav .navbar-toggler:hover,
+  #mainNav .navbar-toggler:focus {
+    color: #f0b036;
+    border-color: #f0b036;
   }
 
   #mainNav .navbar-toggler:active {
-    color: #A07524;
-    border-color: #A07524;
+    color: #a07524;
+    border-color: #a07524;
   }
 
   #mainNav.navbar-shrink .nav-link {
@@ -453,33 +455,34 @@ header, section {
   font-size: 2rem;
 }
 p {
-	margin: 0;
+  margin: 0;
 }
 
 .nexa {
-	font-family: "Title";
+  font-family: "Title";
 }
 
 .black {
-	color: #000 !important;
+  color: #000 !important;
 }
 
-
-.orange, .orange-hover {
-	color: #F0B036 !important;
+.orange,
+.orange-hover {
+  color: #00f742 !important;
 }
 
-.orange-hover:focus, .orange-hover:hover {
-    text-decoration: none;
-	color: #A07524 !important;
+.orange-hover:focus,
+.orange-hover:hover {
+  text-decoration: none;
+  color: #008f00 !important;
 }
 
 .blue {
-	color: #64a19d !important;
+  color: #64a19d !important;
 }
 
 .white {
-	color: #fff !important;
+  color: #fff !important;
 }
 
 .masthead h1,
@@ -487,7 +490,7 @@ p {
   font-family: "Title";
   text-align: center;
   opacity: 1;
-  background: url("../img/title-scrolling.png");
+  background: url("../img/binary.jpg");
   background-repeat: repeat-x;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -517,7 +520,7 @@ p {
 
 /* ---- Button css ---- */
 .btn-primary {
-  background-color: rgba(240, 176, 54);
+  background-color: rgb(56, 229, 22);
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   border-radius: 30px;
@@ -530,7 +533,7 @@ p {
 }
 
 .btn-primary:hover {
-  background-color: rgba(240, 176, 54, 0.5);
+  background-color: rgba(2, 152, 2, 0.881);
   color: black;
 }
 
@@ -588,33 +591,31 @@ p {
   margin-top: 10px;
 }
 
-.schedule{
+.schedule {
   margin-top: 20px;
 }
 
 .table th {
   text-align: center;
   overflow-wrap: normal;
-  
 }
 
 .table td {
-  
 }
 
 .table tbody tr td {
   vertical-align: middle;
   font-weight: 900;
-  font-size: 1.0rem;
+  font-size: 1rem;
   width: 180px;
 }
 
 .schedule header div {
-    font-family: "Title";
-    font-size: 6rem;
-    text-align: right;
-    vertical-align: middle;
-    text-transform: capitalize;
+  font-family: "Title";
+  font-size: 6rem;
+  text-align: right;
+  vertical-align: middle;
+  text-transform: capitalize;
 }
 
 /* Sponsors */
@@ -653,9 +654,9 @@ p {
   background: white;
 }
 
-.sponsor-tier {
+/* .sponsor-tier {
   color: #;
-}
+} */
 
 .sponsor-img-container {
   padding-bottom: 8em;
@@ -693,13 +694,13 @@ p {
 }
 
 #mainNav .nav-link:hover {
-    -webkit-text-fill-color: rgba(240, 176, 54) !important;
+  -webkit-text-fill-color: rgb(7, 240, 11) !important;
 }
 
 #mainNav .navbar-nav .nav-item:hover {
-    color: rgba(240, 176, 54) !important;
+  color: rgba(240, 176, 54) !important;
 }
 
 #mainNav.navbar-shrink .nav-link:hover {
-    color: rgba(240, 176, 54) !important;
+  color: rgba(240, 176, 54) !important;
 }
