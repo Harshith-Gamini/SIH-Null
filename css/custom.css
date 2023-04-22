@@ -49,7 +49,7 @@ body {
 }
 
 .white-bg {
-  background: rgb(51, 255, 0);
+  background: rgb(88, 225, 54);
 }
 
 .transparent-bg {
@@ -379,7 +379,6 @@ section {
 
 #mainNav.navbar-shrink {
   background-color: rgba(0, 0, 0, 0.8);
-  border-bottom: 1px solid white;
   transition: 0.5s ease-in-out;
 }
 
@@ -397,8 +396,15 @@ section {
 .title-icon {
   width: 64px;
   height: 64px;
-  background: url("../img/icon.png");
+  background: url("../img/null_logo.png");
   background-size: 64px 64px;
+}
+
+.title2-icon{
+  width: 80px;
+  height: 64px;
+  background: url("../img/kavach_logo.png");
+  background-size: 82px 64px;
 }
 
 .hidden-anchor {
