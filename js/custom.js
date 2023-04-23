@@ -84,12 +84,11 @@ str += '</tbody>';
 window.document.getElementById("saturdayContainer").innerHTML = str;
 
 var str = '<tbody>';
-str +=  '<tr><th></th><th>Main track</th><th></th><th>Workshops</th></tr>';
+str +=  '<tr><th></th><th>Main track</th></tr>';
 sunday.forEach(function(ev, index){
   if (index ==0  || (sunday[index-1].startTime != ev.startTime || sunday[index-1].track == ev.track) ){     
     str += '<tr>';
     if (ev.track == 'ws'){
-
         str += '<th></th>';
         str += '<td></td>';
     }
