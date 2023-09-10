@@ -38,10 +38,10 @@ margin-left: 19px;}
 .social-icon {
             margin-top:180px;
             position: absolute;
-            right: -80px;
+            right: 0px;
             transition: 0.5s;
             padding: 15px;
-            width: 100px;
+            width: 20px;
             font-size: 20px;
             color:white;
             border-radius: 5px 0px 0px 5px;
@@ -51,6 +51,7 @@ margin-left: 19px;}
     .social-icon:hover {
       color: #0A66C2;
       right:0;
+      width:100px;
     }
 
     .linkedin-icon{
