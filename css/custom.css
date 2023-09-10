@@ -35,36 +35,39 @@ margin-left: 19px;}
   padding: 6em 0 6em 0;
 }
 
-.sidebar a{
-  position: absolute;
-  right: -80px;
-  transition: 0.5s;
-  padding: 15px;
-  width: 100px;
-  font-size: 20px;
-  color:white;
-  border-radius: 5px 0px 0px 5px;
-  background-color: #17a2b8;
-}
-.sidebar a:hover{
-  right:0;
-}
-.sidebar #L1{
-  top:20px;
-  /* background-color: rgb(5,201,136); */
-}
-.sidebar #L2{
- top:80px;
- /* background-color: rgb(0,145,167);  */
-}
-.sidebar #L3{
-  top:140px;
-  /* background-color: red; */
-}
-.sidebar #L4{
-    top:200px;
-    /* background-color: grey; */
-}
+.social-icon {
+            margin-top:180px;
+            position: absolute;
+            right: -80px;
+            transition: 0.5s;
+            padding: 15px;
+            width: 100px;
+            font-size: 20px;
+            color:white;
+            border-radius: 5px 0px 0px 5px;
+            background-color: #17a2b8;
+    }
+
+    .social-icon:hover {
+      color: #0A66C2;
+      right:0;
+    }
+
+    .linkedin-icon{
+        top:20px;
+    }
+
+    .facebook-icon{
+        top:80px;
+    }
+
+    .github-icon{
+        top:140px;
+    }
+
+    .twitter-icon{
+        top:200px;
+    }
 
 .diagonal-section {
   z-index: 30;
