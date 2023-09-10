@@ -481,7 +481,7 @@ p {
 
 .orange,
 .orange-hover {
-  color: #00f742 !important;
+  color: #17a2b8 !important;
 }
 
 .orange-hover:focus,
@@ -533,7 +533,7 @@ p {
 
 /* ---- Button css ---- */
 .btn-primary {
-  background-color: rgb(56, 229, 22);
+  background-color: #17a2b8;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   border-radius: 30px;
@@ -546,7 +546,7 @@ p {
 }
 
 .btn-primary:hover {
-  background-color: rgba(2, 152, 2, 0.881);
+  background-color: #17a2b8;
   color: black;
 }
 
