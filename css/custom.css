@@ -330,8 +330,8 @@ section {
 
   #mainNav .navbar-toggler:hover,
   #mainNav .navbar-toggler:focus {
-    color: #f0b036;
-    border-color: #f0b036;
+    color: rgb(54, 231, 240);
+    border-color: rgb(54, 231, 240);
   }
 
   #mainNav .navbar-toggler:active {
@@ -487,7 +487,7 @@ p {
 .orange-hover:focus,
 .orange-hover:hover {
   text-decoration: none;
-  color: #008f00 !important;
+  color: #17a2b8 !important;
 }
 
 .blue {
@@ -707,13 +707,13 @@ p {
 }
 
 #mainNav .nav-link:hover {
-  -webkit-text-fill-color: rgb(7, 240, 11) !important;
+  -webkit-text-fill-color: #17a2b8 !important;
 }
 
 #mainNav .navbar-nav .nav-item:hover {
-  color: rgba(240, 176, 54) !important;
+  color: rgba(54, 231, 240) !important;
 }
 
 #mainNav.navbar-shrink .nav-link:hover {
-  color: rgba(240, 176, 54) !important;
+  color: rgba(54, 231, 240) !important;
 }
