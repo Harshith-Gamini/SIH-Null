@@ -34,8 +34,7 @@ margin-left: 19px;}
 .vertical-padding {
   padding: 6em 0 6em 0;
 }
-
-.sidebar .social-icon {
+.social-icon {
             margin-top:180px;
             position: absolute;
             right: 0px;
@@ -47,25 +46,24 @@ margin-left: 19px;}
             border-radius: 5px 0px 0px 5px;
             background-color: #17a2b8;
     }
-.sidebar .social-icon:hover {
-      color: #0A66C2;
+.social-icon:hover {
       right:0;
       width:80px;
     }
 
-.sidebar  .linkedin-icon{
+.linkedin-icon{
         top:20px;
     }
 
-.sidebar  .facebook-icon{
+.facebook-icon{
         top:80px;
     }
 
-.sidebar  .github-icon{
+.github-icon{
         top:140px;
     }
 
-.sidebar  .twitter-icon{
+.twitter-icon{
         top:200px;
     }
 
